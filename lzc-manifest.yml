@@ -57,8 +57,7 @@ services:
       - JAVA_TOOL_OPTIONS=-XX:MaxRAMPercentage=70 -Xmx512m
       - TZ=Asia/Shanghai
     depends_on:
-      db:
-        condition: service_healthy
+      - db
     healthcheck:
       test:
         - CMD-SHELL
