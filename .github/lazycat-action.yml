@@ -36,8 +36,7 @@ images:
     channel: custom
     tag_regex: '^16-alpine$'
     delivery:
-      mode: mirror
-      require_digest_match: true
+      mode: lazycat
 
 stores:
   official:
