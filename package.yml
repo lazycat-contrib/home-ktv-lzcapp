@@ -1,0 +1,20 @@
+package: community.lazycat.app.home-ktv
+version: 1.0.6
+name: Home KTV
+description: "一个局域网的私人 KTV 系统"
+min_os_version: 1.5.0
+homepage: https://github.com/zhayinggang/ktv-home
+author: zhayinggang
+license: MIT
+
+locales:
+  zh:
+    name: "家庭KTV"
+    description: "一个局域网的私人 KTV 系统 — 支持 Intel 核显 VAAPI 硬件加速"
+  en:
+    name: "Home KTV"
+    description: "A private LAN KTV system with Intel GPU VAAPI hardware acceleration"
+
+permissions:
+  required:
+    - net.internet

@@ -1,0 +1,8 @@
+manifest: ./lzc-manifest.yml
+pkgout: ./
+icon: ./icon.png
+compose_override:
+  services:
+    ktv:
+      devices:
+        - /dev/dri:/dev/dri
