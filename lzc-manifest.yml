@@ -1,5 +1,12 @@
 application:
   subdomain: home-ktv
+  entries:
+    - id: main
+      path: /m
+      title: "手机点歌"
+    - id: admin
+      path: /m/admin
+      title: "管理后台"
   upstreams:
     - location: /
       backend: http://ktv:8080/

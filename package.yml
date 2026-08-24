@@ -11,9 +11,13 @@ locales:
   zh:
     name: "家庭KTV"
     description: "一个局域网的私人 KTV 系统 — 支持 Intel 核显 VAAPI 硬件加速"
+    entries.main.title: "手机点歌"
+    entries.admin.title: "管理后台"
   en:
     name: "Home KTV"
     description: "A private LAN KTV system with Intel GPU VAAPI hardware acceleration"
+    entries.main.title: "Mobile Song Selection"
+    entries.admin.title: "Admin Panel"
 
 permissions:
   required:
