@@ -29,15 +29,7 @@ images:
     version_template: '{version}'
     delivery:
       mode: lazycat
-  - id: db
-    target: service
-    service: db
-    source: docker.io/library/postgres
-    channel: custom
-    tag_regex: '^16-alpine$'
-    delivery:
-      mode: lazycat
-
+  
 stores:
   official:
     enabled: true
