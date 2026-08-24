@@ -19,7 +19,7 @@ application:
 services:
   db:
     # upstream: docker.io/library/postgres:16-alpine
-    image: registry.lazycat.cloud/library/postgres:16-alpine
+    image: registry.lazycat.cloud/czyt/library/postgres:0b966445316029e8
     environment:
       - POSTGRES_DB=ktv
       - POSTGRES_USER=ktv
