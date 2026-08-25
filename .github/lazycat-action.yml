@@ -28,11 +28,12 @@ images:
     version_regex: '^v?(?P<version>\d+\.\d+\.\d+)$'
     version_template: '{version}'
     delivery:
-      mode: lazycat
+      mode: mirror
+      require_digest_match: true
   
 stores:
   official:
-    enabled: true
+    enabled: false
     continue_if_newer_version: true
     skip_if_version_exists: true
     retry:

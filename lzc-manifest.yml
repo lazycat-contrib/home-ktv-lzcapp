@@ -38,7 +38,7 @@ services:
     stop_grace_period: 1m
   ktv:
     # upstream: ghcr.io/zhayinggang/ktv-home:v1.0.6
-    image: registry.lazycat.cloud/czyt/zhayinggang/ktv-home:8379318799a8dbe8
+    image: ghcr.1ms.run/zhayinggang/ktv-home:v1.0.6
     environment:
       - SERVER_PORT=8080
       - SPRING_DATASOURCE_URL=jdbc:postgresql://db:5432/ktv
